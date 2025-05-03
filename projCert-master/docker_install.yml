@@ -1,5 +1,5 @@
 
-- hosts: dev-worker
+- hosts: worker1
   become: true
   tasks:
     - name: Install Docker
